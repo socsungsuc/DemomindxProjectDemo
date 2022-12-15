@@ -6,7 +6,6 @@
         right: 150px;
         z-index: 980;
         background: white;
-        margin: 0 auto;
         height: 80px;
         /* transform: translateX(-50%); */
         transition: .5s all;
