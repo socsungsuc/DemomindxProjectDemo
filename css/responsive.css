@@ -41,6 +41,9 @@
         margin-right: 30px;
     }
     .menu-logo{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
         align-self: center;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
@@ -181,6 +184,9 @@
         margin-right: 30px;
     }
     .menu-logo{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
         align-self: center;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
