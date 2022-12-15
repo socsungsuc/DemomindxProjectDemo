@@ -1,0 +1,157 @@
+/* .sticky-wrapper{
+    position: absolute;
+} */
+
+
+.menu-content li .last{
+    margin-left: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.menu-content li .menu-item::before {
+    position: absolute;
+    content: "";
+    background: #84C058;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s all;
+}
+
+.menu-content li .menu-item:hover::before{
+    width: 100%;
+}
+
+.menu-content li a:hover{
+    color: #84C058;
+}
+.menu-content li .btn1:hover{
+    color: white;
+}
+
+.btn1m {
+    background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 16px 33px 16px 33px;
+    color: #fff;
+    display: inline-block;
+    /* transition: .3s all; */
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.btn1m:before {
+    position: absolute;
+    content: "";
+    background: #28477D;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 50px;
+    z-index: -1;
+    transition: .5s all;
+}
+.btn1m:hover::before {
+    width:100%;
+}
+
+.Toggle svg{
+    cursor: pointer;
+    align-self: center;
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+.background-popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background:none;
+    z-index: -1;
+}
+.active1{
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+}
+.popup{
+    position: fixed;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.25);
+    opacity: 0;
+    width: 430px;
+    padding: 20px 30px;
+    background: white;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    /* transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 20ms ease-in-out 0ms; */
+    z-index: 999;
+}
+.active2{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+    /* transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 20ms ease-in-out 0ms; */
+}
+
+.popup .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 15px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.popup .formBooking h2{
+    text-align: center;
+    color: black;
+    margin: 10px 0px 20px;
+    font-size: 20px;
+}
+.popup .formBooking .form-element{
+    margin: 15px 0px;
+}
+.popup .formBooking .form-element label{
+    font-size: 18px;
+    color: #222;
+}
+.popup .formBooking .form-element label[for="remember-me"]{
+    font-size: 16px;
+    color: #aaa;
+}
+.popup .formBooking .form-element input[type="text"],
+.popup .formBooking .form-element input[type="date"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.popup .formBooking .form-element input[id="bookingfor"]{
+    padding-bottom: 50px;
+}
+
+.popup .formBooking .form-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.header-area{
+    padding-top: 20px;
+    padding-bottom: 65px;
+    background: #28477D;
+    position: relative;
+}
+
+.header-area .header-container{
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header-container ul{
+    padding-left: 15px;
+    margin: 0;
+    list-style: none;
+}
+
+.header-container ul li{
+    padding-right: 50px;
+    display: inline-block;
+}
+
+.header-container .social ul li{
+    padding-right: 30px;
+}
+
+.logo-header-1 .contact ul li a{
+    color: white;
+}
+.logo-header-1 .contact ul li a:hover{
+    color: #84C058;
+}
+
+
+.logo-header-2 ul{
+    justify-content: end;
+}
+
+.logo-header-1 i{
+    margin-right: 4px;
+    background-image: linear-gradient(to bottom, #87c150, #82c059, #7ebe61, #7abd69, #77bb70, #71ba79, #6cb981, #68b889, #61b794, #5eb69d, #5eb4a5, #61b2ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social a{
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.social a:hover{
+    color: #84C058;
+}

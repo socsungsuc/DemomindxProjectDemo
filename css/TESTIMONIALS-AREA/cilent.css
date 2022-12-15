@@ -1,0 +1,387 @@
+* {
+    font-weight: 400;
+    line-height: 1.87;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --anhbon: 360px;
+    --anhbontop: 570px;
+    --anhmot: 220px;
+    --anhmottop: 480px;
+    --anhhai: 260px;
+    --anhhaitop: 800px;
+    --anhbatop: 770px; 
+    --anhbarigt: 350px;
+    --anhnamtop: 650px; 
+    --anhnamrigt: 250px;
+    --anhsautop: 500px; 
+    --anhsaurigt: 340px;
+}
+  
+
+
+
+.cilent_Testimonials{
+ position: relative;   
+background-color: rgb(255, 255, 255);
+padding-top: 110px;
+padding-bottom: 120px;
+
+}
+
+.cilent_Testimonials__content{
+background-color: rgb(255, 255, 255);
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+
+.cilent_Testimonials__content__row__tren__heading{
+
+margin-bottom: 130px;
+text-align: center;
+
+}
+
+
+.cilent_Testimonials__content__row__tren__heading span{
+
+font-size: 20px;
+font-weight: 400;
+color: #7EBD66;
+font-family: 'Pacifico';
+
+}
+.cilent_Testimonials__content__row__tren__heading h2{
+font-size: 50px;
+font-weight: 700;
+text-transform: capitalize;
+font-family: 'Orkney';
+color: #28477D;
+line-height: 1.6;
+margin-bottom: 0.5rem;
+}
+.cilent_Testimonials__content__row__tren__heading{
+    margin-bottom: 130px;
+    text-align: center;
+
+}
+.cilent_Testimonials__content__row__tren__heading p{
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 0;
+
+}
+
+#canvas{
+
+opacity: 0;
+}
+
+.gms_test_hai{
+position: absolute;
+top: 10px;
+z-index: 9;
+
+
+}
+
+
+.tron_cilen4,.tron_cilen1,.tron_cilen2,.tron_cilen3,.tron_cilen5,.tron_cilen6{
+    position: absolute;
+    position: relative;
+    top: 100px;
+    /* left: 0; */
+     
+}
+
+.tron_cilen4 img,.tron_cilen1 img,.tron_cilen2 img,.tron_cilen3 img,.tron_cilen5 img,.tron_cilen6 img{
+    position: absolute;
+    /* position: relative; */
+    z-index: 19;
+    max-width: 100%;
+ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid #7EBD66;
+
+}
+
+
+.tron_cilen4 img{
+    /* position: absolute;    */
+  
+    top: var(--anhbontop);
+    left: var(--anhbon);
+    /* top: 830px; */
+    /* left: 100px; */
+    /* left: 160px; */
+    /* left: 30px; */
+    /* left: 198px; */
+}
+
+.tron_cilen1 img{
+ 
+    top: var(--anhmottop);
+    left: var(--anhmot);
+  
+}
+
+.tron_cilen2 img{
+ 
+    top: var(--anhhaitop);
+    left: var(--anhhai);
+  
+}
+
+
+
+
+.tron_cilen3 img{
+ 
+    top: var(--anhbatop);
+    right: var(--anhbarigt);
+  
+}
+
+.tron_cilen5 img{
+ 
+    top: var(--anhnamtop);
+    right: var(--anhnamrigt);
+  
+}
+.tron_cilen6 img{
+ 
+    top: var(--anhsautop);
+    right: var(--anhsaurigt);
+  
+}
+
+
+
+.cilent_Testimonials__content__row__duoi{
+position: relative;
+
+
+}
+
+
+/* .cilent_Testimonials{
+position: absolute;
+top: 0px; 
+left: 100px;   
+} */
+
+
+.cilent_Testimonials__content__row__duoi__wrap{
+    /* transform: scale(0.4,0.4); */
+    transform: scale(1,1);
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    /* transition: .3s all; */
+
+}
+
+/* .cilent_Testimonials__content__row__duoi__wrap::after{
+    position: absolute;
+    content: "";
+    background-image: url("../image/duonghai.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 235px;
+    height: 385px;
+    right: -20px;
+    top: 140px;
+    z-index: -1;
+
+} */
+
+/* .cilent_Testimonials__content__row__duoi__wrap::before{
+   
+    content: "";
+ 
+    width: 180px;
+    height: 340px;
+    left: 0px;
+    top: 200px;
+  
+
+} */
+
+
+.cilent_Testimonials__content__row__duoi__wrap__affter{
+    position: relative;
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 340px;
+    right: 80px;
+    top: 170px;
+    z-index: 8;
+
+}
+
+.cilent_Testimonials__content__row__duoi__wrap__affter img{
+  width: 100%;
+  height: 100%;  
+}
+
+
+.cilent_Testimonials__content__row__duoi__wrap__beffore{
+    position: relative;
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 340px;
+    left: 60px;
+    top: 200px;
+    z-index: 8;
+
+}
+.cilent_Testimonials__content__row__duoi__wrap__beffore img{
+width: 100%;
+height: 100%;
+
+
+}
+
+
+.client-p-1{
+position: relative;
+transform: scale(0.8,0.8);
+
+}
+.client-comment{
+    display: flex;
+    justify-content: center;
+    max-width: 587px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+.client-comment__item{
+    background: #fff;
+    border-radius: 70px;
+    box-shadow: 0px 0px 25px 0px rgb(81 145 250 / 20%);
+    padding: 55px 45px 55px 45px;
+    position: relative;
+  
+    z-index: 1;
+
+
+}
+.client-comment__item img{
+    position: absolute;
+    width: 242px;
+    height: 184px;
+    right: -28px;
+    top: -70px;
+    z-index: -1;
+
+
+}
+.client-comment__item h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Orkney';
+    color: #28477D;
+    line-height: 1.6;
+
+
+}
+.client-comment__item ul{
+    display: block;
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 25px;
+  
+
+}
+
+.client-comment__item ul li{
+
+    display: inline-block;
+    margin-right: 8px;
+
+
+}
+.client-comment__item ul li a svg{
+    color: #F7D33D;
+    font-size: 20px;
+
+}
+.client_anhgiua{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.client-info{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+
+}
+.client-info h4{
+    text-transform: capitalize;
+    font-size: 40px;
+    
+    margin-bottom: 0;
+
+}
+.client-comment__item::before{
+   
+    z-index: 100;
+    position: absolute;
+    content: "";
+    background-image: url("../image/down.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -94px;
+
+}
+
+
+/* @media only screen and (max-width: 736px) {
+
+
+    .tron_cilen4 img{
+      
+        top: 830px;
+        left: -300px;
+ 
+    }
+    
+
+} */
+/* 
+@media only screen and (max-width: 736px) {
+
+
+    .tron_cilen4 img{
+      
+        top: 900px;
+        left: -300px;
+ 
+    }
+    
+
+} */
