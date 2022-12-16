@@ -19,6 +19,7 @@ document.querySelector(".popup .close-btn").addEventListener("click", function()
 
 var username = document.querySelector("#name");
 var useremail = document.querySelector("#email");
+var userphone = document.querySelector("#phone");
 var bookingfor = document.querySelector("#bookingfor");
 var userdate = document.querySelector("#bookingdate");
 var userform = document.querySelector('form');
@@ -53,16 +54,29 @@ function checkEmptyError(listInput){
 }
 
 function checkEmail(input){
-    const regexEmail = '^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$';
-    input.value = input.value.trim()
+    const regexEmail = /^\w+@[a-zA-Z]{3,}\.com$/i;
+    input.value = input.value.trim();
 
     if (regexEmail.test(input.value)){
-        showSuccess(input)
+        showSuccess(input);
     } else{
-        showError(input, 'Email khong hop le')
+        showError(input, 'Email khong hop le');
     }
 
     return regexEmail.test(input.value);
+}
+
+function checkPhoneNumber(input){
+    const regexPhoneNumber = /^\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
+    input.value = input.value.trim();
+
+    if (regexPhoneNumber.test(input.value)){
+        showSuccess(input);
+    } else{
+        showError(input, 'SĐT khong hop le');
+    }
+
+    return regexPhoneNumber.test(input.value);
 }
 
 function bookingdate(){
@@ -72,10 +86,11 @@ function bookingdate(){
 
 usersubmit.addEventListener('click', function(e){
     e.preventDefault();
-    let isEmptyError = checkEmptyError([username, useremail, bookingfor, userdate]);
-    // let isEmailError = checkEmail(useremail);
+    let isEmptyError = checkEmptyError([username, useremail, userphone, bookingfor, userdate]);
+    let isEmailError = checkEmail(useremail);
+    let isPhoneError = checkPhoneNumber(userphone);
 
-    if (isEmptyError)
+    if (isEmptyError || !isEmailError || !isPhoneError)
     {
            
     } else{
