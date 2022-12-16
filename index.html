@@ -107,36 +107,48 @@
     <div class ="background-popup">
         <div class = "popup">
             <div class="close-btn">&times;</div>
-            <div class="formBooking">
+            <form class="formBooking" action="">
                 <h2>BOOKING</h2>
                 <div class="form-element">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Enter full name">
+                    <!-- <label for="name">Name</label> -->
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <small>Error</small>
                 </div>
                 <div class="form-element">
-                    <label for="email">Email or Phone</label>
-                    <input type="text" id="email" placeholder="Enter email">
+                    <!-- <label for="email">Email or Phone</label> -->
+                    <input type="text" id="email" placeholder="Email OR Phone" required>
+                    <small>Error</small>
                 </div>
                 <div class="form-element">
-                    <label for="text">Booking for</label>
-                    <input type="text" id="bookingfor" placeholder="what's the matter with you?">
+                    <!-- <label for="text">Booking for</label> -->
+                    <input type="text" id="bookingfor" placeholder="What's the matter with you?" required>
+                    <small>Error</small>
                 </div>
                 <div class="form-element">
-                    <label for="date">Booking date</label>
-                    <input type="date" id="bookingdate">
+                    <!-- <label for="date">Booking date</label> -->
+                    <input type="date" id="bookingdate" required>
+                    <small>Error</small>
                 </div>
-                <div class="form-element">
+                <!-- <div class="form-element">
                     <input type="checkbox" id="remember-me">
                     <label for="remember-me">Remember me</label>
-                </div>
+                </div> -->
                 <div class="form-element">
-                    <button>BOOKING</button>
+                    <button type="submit" class="btn1m">
+                        BOOKING
+                    </button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
+    <div class = "popup-alert">
+            <div class="close-btn">&times;</div>
+            <h2>ĐẶT LỊCH KHÁM THÀNH CÔNG</h2>
+            <p>Cảm ơn khách hàng đã tin tưởng bệnh viện</p>
+            <p id="res"></p>
+    </div>
     <script src="./js/bookingpopup.js"></script>
-    
+
 
     <!-- Menu Bar end -->
     <!-- Header area start -->

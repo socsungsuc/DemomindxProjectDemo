@@ -21,7 +21,7 @@
         max-width: 1440px;
         margin: 0 auto;
         width: 1000px;
-        margin-top: 14px;
+        margin-top: 13px;
     }
     .stickymenucontainer{
         width: 1300px;
@@ -45,8 +45,7 @@
         align-items: center;
         gap: 10px;
         align-self: center;
-        flex: 0 0 16.666667%;
-        max-width: 16.666667%;
+        flex:none;
     }
     .menu-content{
         display: flex;
@@ -164,7 +163,7 @@
         max-width: 1000px;
         margin: 0 auto;
         /* width: 1000px; */
-        margin-top: 14px;
+        margin-top: 13px;
     }
     .stickymenucontainer{
         width: 1300px;
@@ -188,8 +187,7 @@
         align-items: center;
         gap: 10px;
         align-self: center;
-        flex: 0 0 16.666667%;
-        max-width: 16.666667%;
+        flex: none;
         margin-left: 5px;
     }
     .menu-content{
