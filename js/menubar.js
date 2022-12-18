@@ -18,7 +18,6 @@ document.addEventListener('scroll', () => {
 
 document.querySelectorAll(".menu-col ul.menu-content li a").forEach(anchor =>{
     anchor.addEventListener("click",function(e){
-        console.log("hello");
         e.preventDefault();
         document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior : "smooth"
