@@ -334,3 +334,19 @@ width: var(--footer_v);
     
     left: 2px;
     }
+    
+    @media only screen and (max-width: 570px) {
+
+
+        .footer_row1{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 400px;
+            
+            
+            }
+
+
+
+    }
