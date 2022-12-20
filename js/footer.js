@@ -178,4 +178,3 @@ document.querySelector(".bottomToup").addEventListener("click",function(e){
         behavior: "smooth"
     });
 });
-    
