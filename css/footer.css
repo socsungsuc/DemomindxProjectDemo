@@ -8,7 +8,9 @@
 
 :root {
     --footer_v: 300px;
-}
+   
+   
+   }
    
 
 .container {
@@ -325,5 +327,10 @@ width: var(--footer_v);
     }
 
     /* .fa-arrow-circle-up::before {
-        content: "";
+        content: "ï‚ª";
     } */
+
+    .tt_infor{
+    
+    left: 2px;
+    }

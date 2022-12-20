@@ -59,9 +59,9 @@ function footer_4(){
         <div class="contact title footer_thep">
             <h4>contact</h4>
             <ul>
-                <li><a class="footer_thep href="#"><i class="fas fa-envelope"></i >info@company.com</a></li>
-                <li><a class="footer_thep href="#"><i class="fas fa-phone-alt"></i>+12 123 4567</a></li>
-                <li><a class="footer_thep href="#"><i class="fas fa-map-marker-alt"></i>12 - Pkview, San Joes, NY-1206, USA</a></li>
+                <li><a  class="footer_thep" href="#"><i class="fas fa-envelope"></i > <a class="tt_infor"> info@company.com </a> </a></li>
+                <li><a class="footer_thep" href="#"><i class="fas fa-phone-alt"></i> <a class="tt_infor">  +12 123 4567</a></a></li>
+                <li><a class="footer_thep" href="#"><i class="fas fa-map-marker-alt"></i> <a class="tt_infor"> 12 - Pkview, San Joes, NY-1206, USA</a> </a></li>
             </ul>
         </div>
     </div>
@@ -138,9 +138,9 @@ function footer_4(){
         <div class="contact title footer_thep">
             <h4>contact</h4>
             <ul>
-                <li><a class="footer_thep href="#"><i class="fas fa-envelope"></i >info@company.com</a></li>
-                <li><a class="footer_thep href="#"><i class="fas fa-phone-alt"></i>+12 123 4567</a></li>
-                <li><a class="footer_thep href="#"><i class="fas fa-map-marker-alt"></i>12 - Pkview, San Joes, NY-1206, USA</a></li>
+                <li><a class="footer_thep href="#"><i class="fas fa-envelope"></i > <a class="tt_infor"> info@company.com</a></a></li>
+                <li><a class="footer_thep href="#"><i class="fas fa-phone-alt"></i> <a class="tt_infor"> +12 123 4567</a></a></li>
+                <li><a class="footer_thep href="#"><i class="fas fa-map-marker-alt"></i> <a class="tt_infor"> 12 - Pkview, San Joes, NY-1206, USA</a></a></li>
             </ul>
         </div>
     </div>
